@@ -7,8 +7,7 @@ public class questionDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string[] questions = new string[]
-        {
+        string[] questions = {
             "What is your favorite thing that your boyfriend or girlfriend does?",
             "Tell me about your most awkward date.",
             "Who is the sexiest person here?" ,
@@ -91,10 +90,10 @@ public class questionDisplay : MonoBehaviour
             "What is the most embarrassing nickname you have ever had?" ,
             "Find the person whose first name has the same letter as your first name or whoever\'s first name\'s first letter is closest to yours. Now lick their face."
         };
-        Random r = new Random();
-        var idx = r.next(questions.Length);
+        System.Random r = new System.Random();
+        r.Next(questions.Length);
 
-        Console.WriteLine(
+        Debug.Log(
             "$Truth: {questions[idx]}"
         );
 

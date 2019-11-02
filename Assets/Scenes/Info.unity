@@ -197,7 +197,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &90891869
 RectTransform:
@@ -874,7 +874,6 @@ GameObject:
   - component: {fileID: 2091660167}
   - component: {fileID: 2091660166}
   - component: {fileID: 2091660165}
-  - component: {fileID: 2091660169}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -957,8 +956,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2091660169}
-        m_MethodName: OnMouseDown
+      - m_Target: {fileID: 2091660165}
+        m_MethodName: ToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1004,15 +1003,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091660163}
   m_CullTransparentMesh: 0
---- !u!114 &2091660169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091660163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85ee23e3872a54e688dee97a1fe50f76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
