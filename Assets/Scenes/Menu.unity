@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 63393131}
   - component: {fileID: 63393130}
   - component: {fileID: 63393129}
-  - component: {fileID: 63393128}
   - component: {fileID: 63393127}
   m_Layer: 0
   m_Name: Truth-Button
@@ -171,18 +170,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45a55f542ac834d37a7ddb01b75f5471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &63393128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63393125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e999e7b75d34bd7934272aab9838a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &63393129
