@@ -36,4 +36,9 @@ public class SceneChanger: MonoBehaviour
 	{
 		SceneManager.LoadScene("Info");
 	}
+
+    public void OnButton()
+    {
+        Debug.Log("test");
+    }
 }
