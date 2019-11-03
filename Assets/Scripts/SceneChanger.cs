@@ -8,7 +8,7 @@ public class SceneChanger: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class SceneChanger: MonoBehaviour
 
 	public void ToDare()
 	{
-		SceneManager.LoadScene("Date");
+		SceneManager.LoadScene("Dare");
 	}
 
 	public void ToTruth()
