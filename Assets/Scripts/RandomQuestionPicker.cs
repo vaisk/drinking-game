@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class questionDisplay : MonoBehaviour
+public class RandomQuestionPicker : MonoBehaviour
 {
+    public TextMeshProUGUI Question;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,14 +95,13 @@ public class questionDisplay : MonoBehaviour
             "Find the person whose first name has the same letter as your first name or whoever\'s first name\'s first letter is closest to yours. Now lick their face."
         };
         System.Random r = new System.Random();
-        r.Next(questions.Length);
+        int randomNumber = r.Next(questions.Length);
+
+        Question.text = questions[randomNumber];
 
         Debug.Log(
-            "$Truth: {questions[idx]}"
+            "$Truth: {questions[randomNumber]}"
         );
-
-
-
     }
 
     // Update is called once per frame
