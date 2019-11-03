@@ -1,7 +1,10 @@
 .idea
 Temp/
+Builds/
+
 Library/
 .vs/
 ProjectSettings/
 .csproj
 .sln
+.DS_Store
