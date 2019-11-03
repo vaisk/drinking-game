@@ -611,7 +611,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812654063}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 521255852}
@@ -619,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -181, y: 377}
+  m_AnchoredPosition: {x: -162, y: 352}
   m_SizeDelta: {x: 287.2, y: 71.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &812654065
@@ -640,8 +640,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: On choosing truth, you have to answer the question or take a shot. The same
-    rule applies to dare, with the given multiplier.
+  m_text: 'Hint: On choosing truth, you have to answer the question or take a shot.
+    The same rule applies to dare, with the given multiplier.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dcc8b156cd96447f4bbfce3131a46d57, type: 2}
   m_sharedMaterial: {fileID: -5733324209829687084, guid: dcc8b156cd96447f4bbfce3131a46d57,
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 81
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -708,13 +708,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -377.94556, w: -79.73851}
+  m_margin: {x: -43.58322, y: 0, z: -377.94556, w: -128.54645}
   m_textInfo:
     textComponent: {fileID: 812654065}
-    characterCount: 124
+    characterCount: 130
     spriteCount: 0
-    spaceCount: 22
-    wordCount: 23
+    spaceCount: 23
+    wordCount: 24
     linkCount: 0
     lineCount: 3
     pageCount: 1
